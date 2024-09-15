@@ -1,0 +1,106 @@
+*{
+    color: rgb(248, 172, 8);
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+#logo{
+    transition: all,5s,linear,1s;
+    margin:0;
+    padding:0;
+}
+#logo:hover{
+    transform: scale(1.5);
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#MAL100{
+    margin: 0;
+    background-image: url("https://media.istockphoto.com/id/1265965042/vector/math-theory-mathematics-calculus-on-class-chalkboard-algebra-and-geometry-science.jpg?s=612x612&w=0&k=20&c=T97ylW_6ht1STS_MRw4YrDg0Kt3HuoXEOQI9vQFfin8=");
+}
+#MAL100{
+    transition: all,5s,linear,1s;
+}
+#MAL100:hover{
+    transform: scale(1.25);
+}
+#c1{
+    transition: all,5s,linear,1s;
+}
+#c1:hover{
+    transform: scale(1.5);
+}
+#c2{
+    transition: all,5s,linear,1s;
+}
+#c2:hover{
+    transform: scale(1.5);
+}
+#CSL100{
+    margin: 0;
+    transition: all,5s,linear,1s;
+    background-image: url("https://img.freepik.com/premium-photo/abstract-modern-tech-programming-code-screen-developer-c-programming-language-computer-script-technology-background-software_505353-445.jpg");
+}
+#CSL100:hover{
+    transform: scale(1.25);
+}
+#CYL100{
+    margin: 0;
+    transition: all,5s,linear,1s;
+    background-image: url("https://www.shutterstock.com/image-vector/beautiful-chemistry-vector-seamless-pattern-600nw-207946306.jpg");
+}
+#CYL100:hover{
+    transform: scale(1.25);
+}
+#CYL101{
+    margin: 0;
+    transition: all,5s,linear,1s;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-green-fresh-world-environment-day-psd-material-image_192979.jpg");
+}
+#CYL101:hover{
+    transform: scale(1.25);
+}
+#PHL101{
+    margin: 0;
+    transition: all,5s,linear,1s;
+    background-image: url("https://media.istockphoto.com/id/1468255539/vector/chemical-science-formulas.jpg?s=612x612&w=0&k=20&c=z8bmdg5aZ6IXSbkROr8ZlJEX0j95O2XVattJ3EXvKFU=");
+}
+#PHL101:hover{
+    transform: scale(1.25);
+}
+body{
+    background-color: black;
+}
+footer{
+    color: aliceblue;
+}
+#f1{
+    color:aliceblue;
+}
+#f2{
+    color:aliceblue;
+}
+#LECTURE{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#L{
+    margin:0;
+    height: 200px;
+    width: 500px;
+    transition: all,5s,ease-in,2s;
+    border: 5px solid chocolate;
+}
+#L:hover{
+    translate: -100px;
+}
+#L>pre{
+    width: 400px;
+    text-align: start;
+}
